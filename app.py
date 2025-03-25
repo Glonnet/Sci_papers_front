@@ -22,7 +22,7 @@ with st.expander("📂 Click to View and Select Documents"):
     #df.loc[selected_doc.split(':')[1]]
     doc = str(selected_doc.split(':')[1].strip())
     selection = df[df['title'] == doc]
-    st.subheader(df['title'].values[0] )
+    st.subheader(df['title'][df['title'] == doc].values[0])
     st.text("\n\n" + str(df['full-text'][df['title'] == doc].values[0]))
 
 
