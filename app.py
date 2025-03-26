@@ -26,7 +26,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 st.title("Scientific paper summarizer")
 st.subheader("Upload an Excel file: ")
 file_buffer = st.file_uploader('')
-df = pd.read_excel('raw_data/papers_test.xlsx')
+df = pd.read_excel('media/papers_test.xlsx')
 
 st.text("\n")
 st.subheader("Choose an Article: ")
