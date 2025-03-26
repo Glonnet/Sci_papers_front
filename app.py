@@ -8,18 +8,18 @@ import json
 url = 'https://api-summary-780137948407.europe-west1.run.app'
 
 # st.set_page_config(layout="wide")
-# st.image("application/Sci-paper-UI.jpg", use_container_width =True)
+st.image("medial/Sci-paper-UI.jpg", use_container_width =True)
 
-page_bg_img = '''
-<style>
-body {
-background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
-background-size: cover;
-}
-</style>
-'''
+# page_bg_img = '''
+# <style>
+# body {
+# background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
+# background-size: cover;
+# }
+# </style>
+# '''
 
-st.markdown(page_bg_img, unsafe_allow_html=True)
+# st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.title("Scientific paper summarizer")
 st.subheader("Upload an Excel file: ")
