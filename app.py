@@ -34,10 +34,10 @@ st.subheader("Choose an Article: ")
 with st.expander("📂 Click to View and Select Documents"):
     # List of available documents
 
-    documents = [f"{title}" for title in df['title']]
+    documents = [f"{title}" for title in df['title'].sort_values(ascending=True)]
 
     # Multi-select allows the user to choose one document
-    selected_doc = st.selectbox("Choose a document to summarize:", documents)
+    selected_doc = st.selectbox("", documents)
     #df.loc[selected_doc.split(':')[1]]
     doc = str(selected_doc.strip())
     selection = df[df['title'] == doc]
