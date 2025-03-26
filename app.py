@@ -3,7 +3,6 @@ import requests
 import os
 import pandas as pd
 import json
-from termcolor import colored
 
 url = 'http://0.0.0.0:8000'
 #url = 'https://api-summary-780137948407.europe-west1.run.app'
