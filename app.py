@@ -10,7 +10,7 @@ import json
 url = 'https://api-summary-780137948407.europe-west1.run.app'
 
 # st.set_page_config(layout="wide")
-st.image("medial/Sci-paper-UI.jpg", use_container_width =True)
+st.image("media/Sci-paper-UI.jpg", use_container_width =True)
 
 # page_bg_img = '''
 # <style>
